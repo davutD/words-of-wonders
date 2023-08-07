@@ -1,0 +1,114 @@
+body{
+    background-color: black;
+    font-family: 'Permanent Marker', cursive;
+    font-style: italic;
+    font-weight: bold;
+}
+#main{
+    background-color: white;
+    width: 600px;
+    height:930px;
+    border:3px solid black;
+    display: flex;
+    margin: auto;
+}
+
+#background{
+    width:570px;
+    height:910px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-image: url("./volcano.jpg");
+    background-repeat: round;
+}
+
+#title{
+    width: 550px;
+    height: 40px;
+    padding-top: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: tomato;
+    font-size: 25px;
+}
+
+#boxes{
+    display: flex;
+    flex-direction:column;
+    margin: auto;
+    margin-left: 30px;
+    font-size: 50px;
+    width: 500px;
+    height: 400px;
+}
+#firstCol,#secondCol,#thirdCol,#fourthCol,#fifthCol{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    margin-top: 2px;
+    height: 80px;
+}
+
+#firstCol div{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2px;
+    width: 81px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+#secondCol div{
+    display: flex;
+    margin-left: 2px;
+    flex-direction: row;
+    width: 81px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+#thirdCol div{
+    display: flex;
+    margin-left: 2px;
+    flex-direction: row;
+    width: 81px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+#fourthCol div{
+    display: flex;
+    margin-left: 2px;
+    flex-direction: row;
+    width: 81px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+#fifthCol div{
+    display: flex;
+    flex-direction: row;
+    width: 81px;
+    margin-left: 2px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+div p{
+    padding-left: 25px;
+    margin-top: 10px;
+    opacity: 0.5;
+    display: none;
+}
+
+.blank{
+    opacity: 0;
+}
